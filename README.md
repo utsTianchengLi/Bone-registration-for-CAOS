@@ -1,3 +1,3 @@
-# Bone-registration-for-CAOS
+# Bone registration for CAOS
 
 The code will be release soon
