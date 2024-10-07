@@ -48,7 +48,7 @@ XX0=zeros(1,6);
 tic
 RR0=eul2rotm(XX0(1:3)); TT0=XX0(4:6)';
 X=ones(6,1)*0;   %[dPhi;dx;dy;dz] for lie group
-alpha = 0.001; %  1 for Cauchy, 2 for Geman-McClure
+alpha = 1; %  1 for Cauchy, 2 for Geman-McClure
 
 id=[1:n]';
 
